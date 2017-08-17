@@ -10,31 +10,32 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav>
-		<div class="nav-wrapper">
-			<img src="img/logmain-1.png" alt="Logo" class="brand-logo">
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="#">HOME</a></li>
-				<li><a href="#">SAMPLE PAGE</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><i class="material-icons">search</i></li>
-			</ul>
-			<ul class="side-nav" id="mobile-demo">
-				<li><input type="text" placeholder="search..."></li>
-				<li><a href="#">HOME</a></li>
-				<li><a href="#">SAMPLE PAGE</a></li>
-				<li><a href="#">BLOG</a></li>
-			</ul>
-		</div>
-	</nav>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper container">
+				<img src="img/logmain-1.png" alt="Logo" class="brand-logo">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SAMPLE PAGE</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><i class="material-icons">search</i></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><input type="text" placeholder="search..."></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SAMPLE PAGE</a></li>
+					<li><a href="#">BLOG</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 	<section class="home">
 		<div class="info-home center-align">
 			<h1 >we do the best design</h1>
 			<span class="txt-rotate" data-period="2000" data-rotate="['dream more', 'lalala']"></span>
 			<a class="waves-effect waves-light btn-large">KNOW MORE</a>
 			<a class="waves-effect waves-light btn-large">BUY THEME</a>
-
 		</div>
 	</section>
 	<section class="service">
@@ -72,10 +73,34 @@
 		</div>
 	</section>
 	<section class="about">
-		
+		<div class="container">
+			<div class="row mt60 mb60">
+				<div class="col s12 m6 l6">
+					<img class="responsive-img" src="img/ipad_crea2.png" alt="Ipad">
+				</div>
+				<div class="col s12 m6 l6">
+					<h4>About Our Company</h4>
+					<div>__________</div>
+					<p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget.</p>
+
+					<p>Vestibulum vel lacus nec leo semper aliquet in quis odio. Vestibulum in tincidunt orci, sodales ultricies mi. Nulla eu sem cursus, feugiat sapien ut, feugiat mi. Sed ut tellus quis lectus tempor dignissim. Etiam venenatis iaculis facilisis.</p>	
+					
+					<a class="waves-effect waves-light btn-large">View More</a>		
+				</div>
+			</div>
+		</div>	
 	</section>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.js"></script>
-	</html>
+	<section class="news">
+		<div class="row mt60 mb60">
+			<div class="col s12 m12">
+				<h3 class="center-align">Latest news</h3>
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.js"></script>
+</html>
 
