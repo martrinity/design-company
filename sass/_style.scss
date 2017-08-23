@@ -19,11 +19,21 @@ nav{
 	position: fixed;
 	background-color: rgba(33,33,33,0.29);
 }
+.home,
+.service,
+.about, 
+.news,
+.feature,
+.people,
+.contact,
+.partners{
+  margin: 0 auto;
+  width: 100%;
+  height: $vista;
+}
 
 .home{
-	margin: 0 auto;
-	width: 100%;
-	height: $vista;
+	
 	background: url('../img/slider_bg12_wyzliq-min_dffuob.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -40,7 +50,7 @@ nav{
 	margin: 0 auto;
 	background-color: #E8F1F1;
 	width:100%;
-	height: $vista;
+	height: 500px;
 	.delineado{
 		margin: 0 auto;
 		z-index: 1;
@@ -52,6 +62,7 @@ nav{
 		margin-top:0;
 		padding-top: 40px;
 	}
+
 }
 
 .circle{
@@ -60,10 +71,7 @@ nav{
 	width: 145px;
 }
 .about{
-	margin: 0 auto;
 	background-color: #F9F9F9;
-	width:100%;
-	height: $vista;
 	display: flex;
 	align-items: center;
 }
@@ -81,18 +89,21 @@ nav{
 	}	
 }
 
-.card .info-card .date-card{
+.info-card
+.date-card{
 	color: #bbb;
 	font-size: 11px;
 	font-weight: 600;
 	display: block;
 	margin-top: 5px;
+
 }
 
 .news{
-	margin: 0 auto;
-	width: 100%;
-	height: $vista;
+	
 }
 
+.feature{
+	
+}
 
